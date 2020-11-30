@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet var pickerImage: UIPickerView!
     @IBOutlet var lblImageFileName: UILabel!
     @IBOutlet var imageView: UIImageView!
